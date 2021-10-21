@@ -61,9 +61,9 @@ AutoRecord  = false
 ListenAddr = ":554"
 Reconnect = true
 #启动后自动拉流，可以配置多个
-#[[RTSP.AutoPullList]]
-#URL = "rtsp://admin:admin@192.168.1.212:554/cam/realmonitor?channel=1&subtype=1"
-#StreamPath = "live/rtsp2"
+#[RTSP.AutoPullList]
+#"live/rtsp2" = "rtsp://admin:admin@192.168.1.212:554/cam/realmonitor?channel=1&subtype=1"
+#"live/rtsp3" = "……"
 [WebRTC]
 # 端口范围不配置的话是自动分配
 # PortMin = 30000

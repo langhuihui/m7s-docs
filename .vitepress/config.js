@@ -1,5 +1,5 @@
 module.exports = {
-    title: "m7s 文档 v3.1.1",
+    title: "m7s 文档 v3.0.4",
     description: 'm7s(Monibuca V3)文档',
     themeConfig: {
         repo: 'langhuihui/monibuca',
