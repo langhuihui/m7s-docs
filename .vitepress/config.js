@@ -30,6 +30,11 @@ module.exports = {
                 link: '/principle/basic',
                 activeMatch: '^/principle/'
             },
+            {
+                text: '设备接入',
+                link: '/plugins/gb28181_device',
+                activeMatch: '^/plugins/'
+            },
             { text: 'Jessibuca', link: 'http://jessibuca.monibuca.com', },
         ],
 
