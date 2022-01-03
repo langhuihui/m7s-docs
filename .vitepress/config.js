@@ -1,5 +1,5 @@
 module.exports = {
-    title: "m7s 文档 v3.0.4",
+    title: "m7s 文档 v3.1.2",
     description: 'm7s(Monibuca V3)文档',
     themeConfig: {
         repo: 'langhuihui/monibuca',
@@ -8,7 +8,7 @@ module.exports = {
             indexName: 'monibuca'
         },
         nav: [
-            { text: '官网', link: 'https://monibuca.com', },
+            { text: '官网', link: 'https://m7s.live', },
             { text: '引导', link: '/', activeMatch: '^/$|^/guide/' },
             {
                 text: '配置',
@@ -35,7 +35,7 @@ module.exports = {
                 link: '/plugins/gb28181_device',
                 activeMatch: '^/plugins/'
             },
-            { text: 'Jessibuca', link: 'http://jessibuca.monibuca.com', },
+            { text: 'Jessibuca', link: 'https://j.m7s.live', },
         ],
 
         sidebar: {
