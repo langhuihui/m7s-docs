@@ -5,8 +5,8 @@
 plugin| Protocol | Pusher（push）-->Monibuca  |Source-->Monibuca（pull）|Monibuca-->Player（pull）|Monibuca（push）-->Other Server
 |---------| -------------|-------------| -------------|-------------|--
 plugin-rtmp|rtmp|✔||✔|
-plugin-rtsp|rtsp|✔|✔||
-plugin-hdl|http-flv|||✔|
+plugin-rtsp|rtsp|✔|✔|✔|✔
+plugin-hdl|http-flv||✔|✔|
 plugin-hls|hls||✔|✔|
 plugin-jessica|ws-flv|||✔|
 plugin-webrtc|webrtc|✔||✔
