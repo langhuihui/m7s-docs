@@ -8,7 +8,7 @@ export default {
     Layout: DefaultTheme.Layout
   },
   mounted() {
-    import("aegis-web-sdk").then((Aegis) => {
+    import("aegis-web-sdk").then(({ default: Aegis }) => {
       const aegis = new Aegis({
         id: 'vq6OYI47ZanP8PLyQ3', // 上报 id
         uin: '', // 用户唯一 ID（可选）

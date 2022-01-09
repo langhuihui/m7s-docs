@@ -33,7 +33,7 @@ m7s是Monibuca的缩写。
 **Monibuca** 是基于 `Golang` 开发，支持跨平台部署。 **Monibuca** 可以用 `Jessibuca` 播放器在微信、手机浏览器里面播放视频。也可以通过其他 `SDK` 播放 `RTMP` 流、其他协议的流。只需要相应的插件支持即可。
 
 ## Jessibuca是什么？
-`Jessibuca` 是一款使用 `Emscripten` 编译的纯 `H5` 播放器，支持 `H264` 、 `H265` 格式的直播流，[已开源]（http://jessibuca.monibuca.com）
+`Jessibuca` 是一款使用 `Emscripten` 编译的纯 `H5` 播放器，支持 `H264` 、 `H265` 格式的直播流，[已开源]（https://jessibuca.com）
 
 ## Monibuca的名称有什么特殊含义吗？
-这个单词来源于 `Monica` （莫妮卡）是个人名，在项目里面也存在这个文件夹。没有特别含义，为了解决起名的难题，使用了三个名称分别是 `Monica` 、 `Jessica` 、`Rebecca` 用来代表服务器、播放器、推流器。由于莫妮卡、杰西卡、瑞贝卡，都带卡字，对直播来说寓意不好，所以改为莫妮不卡（`Monibuca`）、杰西不卡[Jessibuca](http://jessibuca.monibuca.com)、瑞贝不卡（`Rebebuca`）。其中推流器 `Rebebuca` 目前尚未公布，是一个推流管理器 。
+这个单词来源于 `Monica` （莫妮卡）是个人名，在项目里面也存在这个文件夹。没有特别含义，为了解决起名的难题，使用了三个名称分别是 `Monica` 、 `Jessica` 、`Rebecca` 用来代表服务器、播放器、推流器。由于莫妮卡、杰西卡、瑞贝卡，都带卡字，对直播来说寓意不好，所以改为莫妮不卡（`Monibuca`）、杰西不卡[Jessibuca](https://jessibuca.com)、瑞贝不卡（`Rebebuca`）。其中推流器 `Rebebuca` 目前尚未公布，是一个推流管理器 。
