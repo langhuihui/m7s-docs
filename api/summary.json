@@ -1,0 +1,222 @@
+data: {
+    "Address": "",
+    "Memory": {
+        "Total": 15926,
+        "Free": 11361,
+        "Used": 4140,
+        "Usage": 26.000358578273936
+    },
+    "CPUUsage": 12.531645569650099,
+    "HardDisk": {
+        "Total": 204,
+        "Free": 37,
+        "Used": 156,
+        "Usage": 80.75679390301173
+    },
+    "NetWork": [
+        {
+            "Name": "virbr0-nic",
+            "Receive": 0,
+            "Sent": 0,
+            "ReceiveSpeed": 0,
+            "SentSpeed": 0
+        },
+        {
+            "Name": "enp6s0",
+            "Receive": 267469295183,
+            "Sent": 23109565572,
+            "ReceiveSpeed": 1160631,
+            "SentSpeed": 23229
+        },
+        {
+            "Name": "enp5s0",
+            "Receive": 0,
+            "Sent": 0,
+            "ReceiveSpeed": 0,
+            "SentSpeed": 0
+        },
+        {
+            "Name": "veth62a54a9",
+            "Receive": 366088,
+            "Sent": 51729932,
+            "ReceiveSpeed": 0,
+            "SentSpeed": 0
+        },
+        {
+            "Name": "br-7333b5db7df6",
+            "Receive": 297236,
+            "Sent": 51707193,
+            "ReceiveSpeed": 0,
+            "SentSpeed": 0
+        },
+        {
+            "Name": "virbr0",
+            "Receive": 0,
+            "Sent": 0,
+            "ReceiveSpeed": 0,
+            "SentSpeed": 0
+        },
+        {
+            "Name": "docker0",
+            "Receive": 0,
+            "Sent": 0,
+            "ReceiveSpeed": 0,
+            "SentSpeed": 0
+        },
+        {
+            "Name": "lo",
+            "Receive": 50682627395,
+            "Sent": 50682627395,
+            "ReceiveSpeed": 16062,
+            "SentSpeed": 16062
+        }
+    ],
+    "Streams": [
+        {
+            "URL": "rtsp://192.168.21.186/id=1",
+            "StreamPath": "live/170",
+            "Type": "RTSP Pull",
+            "StartTime": "2022-01-14T18:42:38.726829057+08:00",
+            "Subscribers": [],
+            "VideoTracks": {
+                "h264": {
+                    "CodecID": 7,
+                    "PacketCount": 492128,
+                    "BPS": 113724,
+                    "SPSInfo": {
+                        "ProfileIdc": 66,
+                        "LevelIdc": 30,
+                        "MbWidth": 44,
+                        "MbHeight": 30,
+                        "CropLeft": 0,
+                        "CropRight": 0,
+                        "CropTop": 0,
+                        "CropBottom": 0,
+                        "Width": 704,
+                        "Height": 480
+                    },
+                    "GOP": 75,
+                    "UsingDonlField": false
+                }
+            },
+            "AudioTracks": {
+                "pcma": {
+                    "CodecID": 7,
+                    "PacketCount": 656659,
+                    "BPS": 8000,
+                    "SoundRate": 8000,
+                    "SoundSize": 16,
+                    "Channels": 1
+                }
+            },
+            "DataTracks": {},
+            "AutoCloseAfter": -1,
+            "Transcoding": null,
+            "ExtraProp": {
+                "Transport": 2
+            }
+        },
+        {
+            "URL": "rtsp://admin:sh123456@10.100.10.23/Streaming/Channels/101",
+            "StreamPath": "live/186",
+            "Type": "RTSP Pull",
+            "StartTime": "2022-01-14T18:42:38.727034986+08:00",
+            "Subscribers": [],
+            "VideoTracks": {
+                "h264": {
+                    "CodecID": 7,
+                    "PacketCount": 493821,
+                    "BPS": 155500,
+                    "SPSInfo": {
+                        "ProfileIdc": 77,
+                        "LevelIdc": 31,
+                        "MbWidth": 80,
+                        "MbHeight": 45,
+                        "CropLeft": 0,
+                        "CropRight": 0,
+                        "CropTop": 0,
+                        "CropBottom": 0,
+                        "Width": 1280,
+                        "Height": 720
+                    },
+                    "GOP": 50,
+                    "UsingDonlField": false
+                }
+            },
+            "AudioTracks": {},
+            "DataTracks": {},
+            "AutoCloseAfter": -1,
+            "Transcoding": null,
+            "ExtraProp": {
+                "Transport": 2
+            }
+        },
+        {
+            "URL": "",
+            "StreamPath": "31000000111328012066/31000000111328012066",
+            "Type": "GB28181 Live",
+            "StartTime": "2022-01-14T18:42:45.19427361+08:00",
+            "Subscribers": null,
+            "VideoTracks": {
+                "h264": {
+                    "CodecID": 7,
+                    "PacketCount": 493601,
+                    "BPS": 430761,
+                    "SPSInfo": {
+                        "ProfileIdc": 66,
+                        "LevelIdc": 42,
+                        "MbWidth": 120,
+                        "MbHeight": 68,
+                        "CropLeft": 0,
+                        "CropRight": 0,
+                        "CropTop": 0,
+                        "CropBottom": 4,
+                        "Width": 1920,
+                        "Height": 1080
+                    },
+                    "GOP": 75,
+                    "UsingDonlField": false
+                }
+            },
+            "AudioTracks": {},
+            "DataTracks": {},
+            "AutoCloseAfter": -1,
+            "Transcoding": null,
+            "ExtraProp": null
+        },
+        {
+            "URL": "",
+            "StreamPath": "34020000002000010023/34020000001320010023",
+            "Type": "GB28181 Live",
+            "StartTime": "2022-01-14T18:42:49.106291879+08:00",
+            "Subscribers": null,
+            "VideoTracks": {
+                "h264": {
+                    "CodecID": 7,
+                    "PacketCount": 493508,
+                    "BPS": 155510,
+                    "SPSInfo": {
+                        "ProfileIdc": 77,
+                        "LevelIdc": 31,
+                        "MbWidth": 80,
+                        "MbHeight": 45,
+                        "CropLeft": 0,
+                        "CropRight": 0,
+                        "CropTop": 0,
+                        "CropBottom": 0,
+                        "Width": 1280,
+                        "Height": 720
+                    },
+                    "GOP": 50,
+                    "UsingDonlField": false
+                }
+            },
+            "AudioTracks": {},
+            "DataTracks": {},
+            "AutoCloseAfter": -1,
+            "Transcoding": null,
+            "ExtraProp": null
+        }
+    ],
+    "Children": null
+}

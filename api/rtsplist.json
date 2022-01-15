@@ -1,0 +1,46 @@
+data: [
+    {
+        "URL": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4",
+        "StreamPath": "live/1",
+        "Type": "RTSP Pull",
+        "StartTime": "2022-01-15T17:55:20.941586+08:00",
+        "Subscribers": null,
+        "VideoTracks": {
+            "h264": {
+                "CodecID": 7,
+                "PacketCount": 326,
+                "BPS": 14545,
+                "SPSInfo": {
+                    "ProfileIdc": 100,
+                    "LevelIdc": 12,
+                    "MbWidth": 15,
+                    "MbHeight": 10,
+                    "CropLeft": 0,
+                    "CropRight": 0,
+                    "CropTop": 0,
+                    "CropBottom": 0,
+                    "Width": 240,
+                    "Height": 160
+                },
+                "GOP": 24,
+                "UsingDonlField": false
+            }
+        },
+        "AudioTracks": {
+            "aac": {
+                "CodecID": 10,
+                "PacketCount": 158,
+                "BPS": 4460,
+                "SoundRate": 12000,
+                "SoundSize": 16,
+                "Channels": 2
+            }
+        },
+        "DataTracks": {},
+        "AutoCloseAfter": -1,
+        "Transcoding": null,
+        "ExtraProp": {
+            "Transport": 2
+        }
+    }
+]
