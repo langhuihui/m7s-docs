@@ -23,6 +23,3 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
-<script setup lang="ts">
-import './.vitepress/theme/main.css'
-</script>
